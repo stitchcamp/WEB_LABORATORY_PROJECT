@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav class="container"> 
+            <!-- Key Class: container centers the content and provides consistent padding for the header. -->
+
+            <!-- Website Title -->
+            <h1>Jennifer and Jemmalyn</h1>
+            <!-- Navigation Menu Purpose: This section contains the navigation menu. It includes links to different parts of the website: About Us, Projects, and Contacts. -->
+            <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction Section Purpose: Displays a welcome message with a visually appealing background. The full-screen class ensures it occupies the full height of the viewport. -->
+    <section id="intro" class="full-screen">
+        <div class="intro-content">
+            <!-- Introductory Message -->
+            <h1>Welcome to our Personal Portfolio Website</h1>
+        </div>
+    </section>
+  
+    <main class="container">
+        <!-- About Section Purpose: Introduces the two team members. Each member has their image, name, and basic details.-->
+         <!-- Key Class: team-member organizes individual profiles, while img displays a circular profile picture. -->
+        <section id="about">
+            <!-- Team Member 1 -->
+            <div class="team-member">
+                <img src="Jennifer.jpg" alt="Team Member 1">
+                <h2>Jennifer C. Catalan</h2>
+                <p>22 years old <br>
+                    3rd year college <br>
+                    From Candumayao, Catigbian Bohol</p>
+            </div>
+            <!-- Team Member 2 -->
+            <div class="team-member">
+                <img src="jemma.png" alt="Team Member 2">
+                <h2>Jemma Lyn C. Bonso</h2>
+                <p> 22 years old <br>
+                    3rd year college <br>
+                    From Sal-ing, Balilihan, Bohol</p>
+            </div>
+        </section>
+        
+
+        <!-- Projects Section Purpose: Displays a list of collaborative projects. Each project has an image, title, and description. Includes a GitHub link for the project where applicable. -->
+        
+        <section id="projects">
+        <h2>Our Collaborative Projects</h2>
+        <div class="projects">
+        <!-- Project 1 -->
+        <div class="project">
+        <img src="project1.png" alt="Project 1">
+        <div class="project-content">
+        <h3>MUSIC PLAYER</h3>
+        <p>Music player is an application that can play and download your favorite music through online.</p>
+        </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project">
+        <img src="Project2.jpg" alt="Project 2">
+        <div class="project-content">
+        <h3>WEBSITE</h3>
+        <p>This project is to show our potential to showcase our skills and <br>
+            completing the assigned lab work will help you learn more effectively.</p>
+         <div class="project-links">
+        <!-- Link to GitHub Repository -->
+        <a href="https://github.com/stitchcamp/Project-laboratory" target="_blank" class="github-link">
+        <i class="fab fa-github"></i> View on GitHub
+        </a>
+        </div>
+        </div>
+        </div>
+
+        <!-- Project 3 -->
+    <div class="project">
+      <img src="Project3.jpg" alt="Project 3">
+      <div class="project-content">
+       <h3>MENTOR MATCH</h3>
+       <p>Mentor Match is an app that helps you find someone to teach you. <br> 
+        It connects people who need help with those who know a lot. <br> 
+        It's like a matchmaker for mentors and learners.</p>
+        </div>
+        </div>
+        </div>
+
+          <!-- Project 4 -->
+        <div class="project">
+            <img src="Project4.png" alt="Project 4">
+            <div class="project-content">
+             <h3>7-SEGMENT HEX DECODER CIRCUIT</h3>
+             <p>Seven segment displays are widely used in <br>
+                 almost all electronic circuits. <br>
+                It can display number from 0 to 9 and some characters. <br>
+              </div>
+              </div>
+              </div>
+        </div>
+        </section>
+
+        <!-- Contact Section Purpose: Provides a contact form for visitors to get in touch with you. Includes fields for name, email, and message.
+ -->
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <form>
+                <!-- Contact Form Fields -->
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" rows="5" required></textarea>
+                <!-- Submit Button -->
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+  <!-- Footer Section Purpose: Displays social media links and copyright information at the bottom of the page. -->
+
+  <footer>
+    <p>Follow me on:</p>
+    <!-- Social Media Links -->
+    <ul>
+        <li><a href="https://www.facebook.com/jennifer.catalan.9404">Facebook Jennifer</a></li>
+        <li><a href="https://www.instagram.com/jenniwhup/"> Instagram Jennifer </a></li>
+        <li><a href="https://www.facebook.com/share/1A8mwNtrQX/"> Facebook Jemma</a></li>
+        <li><a href="https://www.instagram.com/invites/contact/?igsh=mjojxl38mv5o&utm_content=9tu0seb"> Instagram Jemma </a></li>
+        <li><a href="https://www.tiktok.com/@jlpanda20?_t=ZS-8tMX1PMMtj0&_r=1"> Tiktok Jemma </a></li>
+    </ul>
+    <!-- Footer Text -->
+    <p>&copy; 2025 @Jennifer Catalan & Jemma Lyn Bonso. All Rights Reserved.</p>
+</footer>
